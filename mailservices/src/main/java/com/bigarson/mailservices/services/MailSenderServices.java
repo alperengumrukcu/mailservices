@@ -23,8 +23,8 @@ public class MailSenderServices {
     public  MailSenderServices() {
         mailSender.setHost("smtp.gmail.com");
         mailSender.setPort(587);
-        mailSender.setUsername("bigarsontest@gmail.com");
-        mailSender.setPassword("huzvhzkclyiedykd");
+        mailSender.setUsername("");
+        mailSender.setPassword("");
         // ------------------------------------------------------
         props.put("mail.transport.protocol", "smtp");
         props.put("mail.smtp.auth", "true");
